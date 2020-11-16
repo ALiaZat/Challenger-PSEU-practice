@@ -11,33 +11,22 @@
     </div>
     <div class="expanded">
         <section class="section">
-        
-            <ul class="list" style="list-style-type:none">
-                <br>
-                <li style="color:#650061;">Dashboard</li> 
-                <br>
-                <li>Quizzs</li>
-                <br>
-                <li>Questions Base</li>
-                <br>
-                <li>Topics</li>            
-                <br>
-                <li>Settings</li>
-                <br>
-            </ul>
-    
-            
+            <a href="../SecondPage/dashboard.html" style="color:#650061;">Dashboard</a><br>
+            <a href="../QuizPage/quizList.html">Quizzes</a><br>
+            <a href="../QuestionPage/questionList.html">Questions</a><br>
+            <a href="../TopicPage/topicList.html">Topics</a><br>
+            <a href="#Settings">Settings</a><br>
         </section>
         <section class="add-quiz" >
                <h3 class="h">Add Quiz</h3>
                <label class="t" for="title">Title</label><br>
-               <input type="text" class="t" style="border: 1px solid lightgray; border-radius: 10px;"><br>
+               <input id="quiz-title" type="text" class="t" style="border: 1px solid lightgray; border-radius: 10px;"><br>
                <label class="t">Topic</label><br>
-               <select class="t" style="width: 400px; border: 1px solid lightgray; border-radius: 10px;">
+               <select id="quiz-topic" class="t" style="width: 400px; border: 1px solid lightgray; border-radius: 10px;">
                     <option ></option>
                 </select><br>
                <label class="t" >Number of Questions</label><br>
-               <input type="text" class="t" style="border: 1px solid lightgray; border-radius: 10px;"><br><br>
+               <input id="num-of-q" type="text" class="t" style="border: 1px solid lightgray; border-radius: 10px;"><br><br>
                <input id="sub" type="submit" value="Add">
 
         </section>

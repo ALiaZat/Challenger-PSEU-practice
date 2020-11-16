@@ -94,12 +94,12 @@ input#t4 {
     text-align: center;
 }
 
-.buttons {
+.list {
     width: 650px;
     height: 200px;
     flex-grow: 0;
     flex-shrink: 0;
-    align-items: center;
+    align-items: flex-start;
 }
 .expanded {
     width: auto;

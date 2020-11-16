@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="topicDesign.css">
+</head>
+<body>
+    <div class="web-bar">
+        <h1 id="t1">challenger</h1>   
+        <h1 id="t2">ADMIN</h1>
+    </div>
+    <div class="expanded">
+        <section class="section">
+            <a href="../SecondPage/dashboard.html" style="color:#650061;">Dashboard</a><br>
+            <a href="../QuizPage/quizList.html">Quizzes</a><br>
+            <a href="../QuestionPage/questionList.html">Questions</a><br>
+            <a href="../TopicPage/topicList.html">Topics</a><br>
+            <a href="#Settings">Settings</a><br>
+        </section>
+        <section class="add-quiz" >
+               <h3 class="h">Add Topic</h3>
+               <label class="t" for="title">Title</label><br>
+               <input id="title" type="text" class="t" style="border: 1px solid lightgray; border-radius: 10px;"><br>
+               <input onclick="addTopic()" type="submit" value="Save">
+
+        </section>
+    </div>   
+</body>
+</html>

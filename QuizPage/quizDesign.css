@@ -33,7 +33,19 @@ body {
     height: 550px;
     display: inline;
     background-color: #E5E5E5;
-
+    color: #a195a1;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid white;  
+    border-radius: 12px; 
+    text-align: start;  
+}
+a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
 }
 .add-quiz {
     width: 333px;
@@ -45,18 +57,6 @@ body {
     border: 1px solid white;  
     border-radius: 12px; 
     text-align: start;
-}
-input {
-    color: #a195a1;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-    border: 1px solid white;  
-    border-radius: 12px; 
-    text-align: start;  
-}
-.list {
-    font-family: 'Open Sans', sans-serif;
-
 }
 .h {
     color:  #650061;
