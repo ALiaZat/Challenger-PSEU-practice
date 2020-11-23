@@ -29,11 +29,13 @@
                     </select><br>
                <label class="t">Options</label><br>
                <input type="text" class="t" style="border: 1px solid lightgray; border-radius: 10px;">
-               <i class="material-icons" style="font-size:24px;">add</i>
-               <i class="material-icons" style="font-size:24px;">delete</i>
+               <button onclick="addAnotherOption()">Add another Option</button>
+               <button onclick="deleteOption()">Delete Last Option</button>
                <br>
-               <input id="sub1" type="submit" value="Save">
+               <input onclick="saveQ()" type="submit" value="Save">
         </section>
     </div>   
+    <script type="text/javascript" src="../QuestionPage/addQuestion.js"></script>
+
 </body>
 </html>
